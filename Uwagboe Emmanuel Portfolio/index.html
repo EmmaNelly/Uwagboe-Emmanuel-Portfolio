@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="/CSS/normalize.css" />
+    <link rel="stylesheet" href="/CSS/styles.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#goals">Goals</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="mailto:emmanelly7777@gmail.com">Email Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="Name">
+      <h1>Uwagboe Emmanuel</h1>
+    </div>
+
+    <!-- About Me Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Welcome to my web development portfolio, where innovation meets
+        functionality. As a passionate web developer, I take pride in crafting
+        immersive digital experiences through meticulous coding, creative
+        design, and a commitment to delivering seamless user interactions. I am
+        currently pursuing a BSc in information Technology at Bells University
+        of Technology, Nigeria. I graduated from Honeyland College. I am
+        currently developing my skills and knowledge in topics such as Web
+        designing, ReactJS, Python, and operating systems.
+      </p>
+      <button type="button">Download CV</button>
+    </section>
+
+    <!-- Goals Section -->
+    <section id="goals">
+      <h2>Goals</h2>
+      <p>
+        My goal is to establish a web development portfolio that not only
+        showcases my technical proficiency but also narrates a compelling story
+        of my journey as a developer. I aim to create a collection of diverse
+        projects that not only demonstrate my mastery of various technologies
+        but also reflect my commitment to creating meaningful and user-centric
+        web experiences.
+      </p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <div class="project">
+        <div class="Work img">
+          <img src="/image/working.png" alt="image of a boy using a laptop" />
+        </div>
+        <h3>Full Stack Web Developer</h3>
+        <p>
+          I am proficient in a variety of web development technologies including
+          but not limited to HTML, CSS, Javascript, React, Git and Netlify. I
+          know everything needed to make a website function, efficiently. I
+          didn't stop with the web. I went beyond with most popular Javascript
+          framework called Vue JS. I even know the deployment, server and
+          security. I will give you 100% web solution.
+        </p>
+      </div>
+      <div class="project">
+        <div class="PH img">
+          <img src="image/Programming Hero.jpg" alt="Programming Hero Logo" />
+        </div>
+        <p>
+          I thrive in collaborative environments and have successfully
+          contributed to projects with multidisciplinary teams. Notable
+          collaborations include Programming Hero, where effective communication
+          and teamwork were paramount to project success. I was involved in
+          making a website for the PH Convention. They liked it. And uploaded
+          the content. It was fun working at Programming Hero.
+        </p>
+      </div>
+      <div class="project">
+        <div class="Digital img">
+          <img src="image/pngwing.com.png" alt="Digital Art Logo" />
+        </div>
+        <h3>Digital Art</h3>
+        <p>
+          Welcome to my digital art portfolio, a vibrant showcase of my passion
+          for creativity and innovation in the realm of digital art. As a
+          dedicated artist, I strive to blend technical expertise with artistic
+          vision, producing visually compelling and emotionally resonant pieces.
+          I believe that art is a powerful means of expression, capable of
+          transcending boundaries and connecting people across diverse
+          backgrounds. In the digital realm, I harness the limitless
+          possibilities offered by technology to push the boundaries of
+          traditional art and create immersive visual experiences.
+        </p>
+        <p>
+          I am very versitile at various aspects of digital art such as Digital
+          Illustration, Concept Art, Digital Painting, Character Design and
+          Animation
+        </p>
+      </div>
+      <button type="button">Hire Me</button>
+      <!-- Add more projects as needed -->
+    </section>
+
+    <section id="Contact Information">
+      <h2>Contact Information</h2>
+      <p>
+        I am enthusiastic about new challenges and collaborations and also open
+        to new opportunities and commissions. For inquiries, project proposals,
+        or to discuss potential opportunities, feel free to contact me at
+        <a href="mailto:emmanelly7777@gmail.com">emmanelly7777@gmail.com</a> for
+        inquires, progects or just to connect. Let's embark on a creative
+        journey together and turn your digital ideas into dynamic and functional
+        realities!
+      </p>
+      <p>
+        Thank you for exploring my web development portfolio. I look forward to
+        the possibility of contributing to your next web project and creating
+        digital experiences that leave a lasting impression.
+      </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <form id="contactForm" onsubmit="return validateForm()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Script Section -->
+    <script src="scrispt.js"></script>
+  </body>
+</html>
